@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .navbar-fixed-top{
-	margin-bottom:0px; 
+	margin-bottom:0px;
 	border: 0px;
 	-webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.25);
@@ -40,14 +40,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	background-color: #03a9f4;
 }
 
+.nav-projects a{
+	color: #ffffff !important;
+}
+
+.nav-projects-previous{
+	margin-right: 1px;
+}
+
+.nav-projects-disabled {
+	background-color: #BDBDBD
+}
+
+.nav-projects-disabled a{
+	color: #eeeeee;
+	cursor: default;
+}
+
 blockquote {
-	border-left:5px solid #03a9f4; 
+	border-left:5px solid #03a9f4;
 	background-color: #f5f5f5;
 }
 
 /* Project Title */
-.project-jumbotron{ 
-	margin: 0px; 
+.project-jumbotron{
+	margin: 0px;
 	min-height: 300px
 }
 
@@ -112,8 +129,8 @@ blockquote {
 }
 
 .image-quote{
-	text-align:center; 
-	padding: 50px 10px; 
+	text-align:center;
+	padding: 50px 10px;
 	color: #ffffff;
 }
 
@@ -121,13 +138,18 @@ blockquote {
 	color: #03a9f4;
 }
 
+.image-shadow{
+	box-shadow: #ddd 0 0 3px 0;
+	width: 100%;
+}
+
 /* Project Thumbnails home page */
 .newportfoliolist{
-	width: 100%; 
-	height: 200px; 
-	background-position: center center; 
+	width: 100%;
+	height: 200px;
+	background-position: center center;
 	background-size: cover;
-	text-align: center; 
+	text-align: center;
 	display: table;
 }
 
@@ -136,12 +158,12 @@ blockquote {
 }
 
 .newportfoliolist:hover span {
-		display: table-cell; 
-		vertical-align: middle; 
-		width: 100%; 
-		height: 100%; 
-		background-color: rgba(0, 0, 0, 0.65); 
-		background-blend-mode: normal; 
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.65);
+		background-blend-mode: normal;
 		color: white;
 }
 
@@ -171,8 +193,8 @@ blockquote {
 }
 
 #portfoliolist .portfolio .thumbnail:hover {
-	-moz-box-shadow: 5px 5px 5px #c5c5c5; 
-	-webkit-box-shadow: 5px 5px 5px #c5c5c5; 
+	-moz-box-shadow: 5px 5px 5px #c5c5c5;
+	-webkit-box-shadow: 5px 5px 5px #c5c5c5;
 	box-shadow: 5px 5px 5px #c5c5c5;
 }
 
@@ -234,7 +256,7 @@ blockquote {
 .bs-sidebar .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
-  
+
 }
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
@@ -269,7 +291,7 @@ blockquote {
   }
   .bs-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
-    
+
   }
   .bs-sidebar.affix-bottom {
     position: absolute; /* Undo the static from mobile first approach */
@@ -294,8 +316,8 @@ blockquote {
  .resume_element{
 	margin-bottom: 30px
  }
- 
- 
+
+
  /*
  * Footer
  *
@@ -310,8 +332,8 @@ blockquote {
 }
 
 .bs-footer .container {
-	padding: 15px 0px; 
-	margin: 0px; 
+	padding: 15px 0px;
+	margin: 0px;
 	width: 100%;
 }
 
@@ -342,18 +364,18 @@ blockquote {
 	.two-column-flow  {
 		-webkit-column-count: 2;
 		-webkit-column-gap: 3%; /* Saf3, Chrome*/
-		-moz-column-count: 2;   
+		-moz-column-count: 2;
 		-moz-column-gap: 3%; /* FF3.5+ */
-		column-count: 2;        
+		column-count: 2;
 		column-gap: 3%; /* Opera 11+*/
 	}
-	
+
 	.three-column-flow  {
 		-webkit-column-count: 3;
 		-webkit-column-gap: 1%; /* Saf3, Chrome*/
-		-moz-column-count: 3;   
+		-moz-column-count: 3;
 		-moz-column-gap: 1%; /* FF3.5+ */
-		column-count: 3;        
+		column-count: 3;
 		column-gap: 1%; /* Opera 11+*/
 	}
 }
