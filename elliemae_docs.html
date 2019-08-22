@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mehul Agrawal | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mehul Agrawal">
+	<link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="docs/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,700" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Place anything custom after this. -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-57952563-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+	<style>
+		.jumbotron::before {
+			filter: url('#blur');
+			filter: blur(5px);
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- Navigaton -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div>
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">mehul agrawal</a>
+		  </div>
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <!-- <li> <a href="index.html#projects">Projects</a> </li> -->
+			  <li><a href="index.html#resume">Resume</a></li>
+			  <li><a href="index.html#contact">Contact</a></li>
+			  <li class="nav-projects hidden-xs nav-projects-previous"><a href="cognizant.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+			  <li class="nav-projects hidden-xs"><a href="elliemae_dimsum.html"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+	  </div>
+	</nav>
+
+	<!-- Bootstrap Image Gallery lightbox -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i>
+							Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="project_content" id="links">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h1>Document Management Platform</h1>
+
+          <h2>Mortgage software company</h2>
+          <p>Ellie Mae is an enterprise mortgage software company. The company is working to automate and streamline the mortgage process from initial application to selling off the loan in the secondary market. The software helps lenders lower the costs and time to close the loan. Currently, ~40% of the mortgages in the United States pass through the software. Until recently, Ellie Mae was a desktop client but now we are migrating our platform to the web.</p>
+
+          <a class="project-slides" href="image/elliemae/doc_management.png" data-gallery> <img src="image/elliemae/doc_management.png" alt="Market Study" width="100%"> </a>
+
+          <h2>Managing loan documents</h2>
+          <p>It's a no brainer that one of the major components of processing a mortgage is documents. A loan is made up of a lot of documents like the ones uploaded by the borrower (like pay stubs and bank statements), sent by other agencies (like credit and title reports) and generated by the lender as part of the loan processing (like disclosures). Every document is an essential element to verify the lending decision.</p>
+
+          <a class="project-slides" href="image/elliemae/business_need.png" data-gallery> <img src="image/elliemae/business_need.png" alt="Market Study" width="100%"> </a>
+
+          <p>Since document management and processing is at the heart of any mortgage loan, making it an efficient process not only increases the productivity of the lenders but reduces the cost of closing the loan.</p>
+
+          <h2>Complex user groups</h2>
+          <p>While handling thousands of loan documents is in itself a daunting task, the system is made more complex by the number of user groups that are collaborating in this space. Although, there are many user groups that touch the system at various touchpoints during the mortgage process, primarily there are 3 users who collaborate closely to verify the documents -</p>
+          <ul>
+            <li>Loan officers are the ones interacting with the borrowers to get their documents.</li>
+            <li>Processors organize the documents uploaded by loan officers and borrowers. They send out initial disclosure to the borrowers to sign. They order all the verification reports related to borrower, sellers and the property. They ensure that all of the documents are present before going into underwriting.</li>
+            <li>Underwriters ensure that all the required documents are available. Data in documents match with the data in the loan file.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a class="project-slides" href="image/elliemae/process.jpg" data-gallery> <img src="image/elliemae/process.jpg" alt="Market Study" width="100%"> </a>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <h2>Project introduction</h2>
+          <p>This was a long-running project and thus, the work on the document management platform was divided into three different sub-phases</p>
+          <ul>
+            <li>Web - Since the software has been a windows only solution, features and functionality of the doc management system were translated to a cloud-based web solution.</li>
+            <li>Mobile - Certain users, Loan officers, specifically, are on the go while performing key tasks related to the verifying and collating documents for the loan. Hence a subset of features was identified for the mobile solution.</li>
+            <li>Cross-platform doc viewer (similar to adobe pdf viewer) - A cross-platform doc viewer to support key tasks of viewing and analyzing document was designed across the 3 platforms: web, mobile, and desktop.</li>
+          </ul>
+
+          <a class="project-slides" href="image/elliemae/doc_management.png" data-gallery> <img src="image/elliemae/doc_management.png" alt="Market Study" width="100%"> </a>
+
+          <h2>My Role</h2>
+          <p>I was the UX designer on the team and was involved through the product development lifecycle, starting from research to delivery. I collaborated closely with the researchers, PM's, BA's and the dev team to simplify requirements, design assets and implement the solution.</p>
+          <ul>
+            <li>Support Researchers: A quick and dirty prototype for research. Shadowed the UX researchers during the research and testing sessions.</li>
+            <li>Redesign web and mobile: Translated existing web architecture to the mobile context and re-designed the navigation patterns for the existing mobile app.</li>
+            <li>Interaction specs: Handed-off final UX requirements to visual designers in the form of high-fidelity interaction mockups and specs.</li>
+            <li>Led the UX of document viewer where I collaborated with product managers, the dev team, UX researcher, visual designer and accessibility lead for this product to get the right experience implemented.</li>
+          </ul>
+
+          <a class="project-slides" href="image/elliemae/user_flow.jpeg" data-gallery> <img src="image/elliemae/user_flow.jpeg" alt="Market Study" width="100%"> </a>
+
+          <h2>Getting to know the users</h2>
+          <p>There were two parallel research efforts that informed the design of doc platform. One was geared towards understanding users tasks by cataloging day in the life of loan officers. The other was focused on understanding their mobile-specific needs/ tasks. For assisting the researchers, I created research assets for mobile research. Working with PM and UX researchers, I mocked different feature sets for mobile that the researcher used to probe the user. This research helped us in creating a prioritized list of tasks that users would perform on mobile.</p>
+
+          <p>I will discuss the insights, pain-points and respective solution in detail below.</p>
+
+          <h2>Cross-Platform doc viewer</h2>
+          <p>For doc viewer, most of the existing users were downloading documents to view it due to slow loading speed. Also, they were using the adobe software to edit the downloaded file even though the same editing features were available in the Ellie Mae viewer. The viewer was not responsive so users faced issue comparing two documents if they open them in split view. Due to these issues, the adoption of the old viewer was as low as 20%.</p>
+          <a class="project-slides" href="image/elliemae/docviewer.png" data-gallery> <img src="image/elliemae/docviewer.png" alt="Market Study" width="100%"> </a>
+          <ul>
+            <li>On the other hand, the viewer had some advanced features that were a challenge to implement in the web world. Users had the capability to drag a page from one file to any other file. Clicking on a folder showed users virtually merged view of the file.</li>
+            <li>Designed interactions for the viewer such as annotation, editing mode- reorder pages, split file, merge files, deleting pages.</li>
+            <li>Made the overall viewer much easy to use. Solved the challenge to make edit features more prominent.</li>
+            <li>Made the viewer responsive that works on multiple platforms- as a windows app, web, tablet and mobile.</li>
+            <li>I worked with developers to implement keyboard interactions for the viewer. The new doc viewer is WCAG AA 2.0 compliant.</li>
+          </ul>
+
+          <h2>Mobile Solution</h2>
+          <p>Ellie Mae's mobile application lacked most of the useful features that the users need. There were also other interface issues which rendered the app less usable. For example, some of the screens had multiple navigation bars and floating action buttons and a lot of inconsistent patterns were used across the app for similar tasks. Thus, users ended up using a lot of custom-built apps or solutions to accomplish certain tasks as simple as taking pictures and uploading to the system.</p>
+          <a class="project-slides" href="image/elliemae/doc_mobile.png" data-gallery> <img src="image/elliemae/doc_mobile.png" alt="Market Study" width="100%"> </a>
+          <ul>
+            <li>The first major design change was to overhaul the navigation and information architecture.</li>
+            <li>Next, we defined a more consistent language for mobile such as standard list page, form layout, wizard flow, etc.</li>
+            <li>Then we went on to add new capabilities such as the ability to send the electronic consent form to borrowers, upload documents by taking pictures, fill most important form details, view status and notification for a loan.</li>
+            <li>Actively working with business development and customer education team to gather feedback from the field.</li>
+          </ul>
+
+          <h2>Web Solution</h2>
+          <p>The current platform was a windows-based so it used certain patterns that are used commonly in desktop applications but not scalable to the web, for example, the ability to open multiple windows. This meant, while the tasks between the web and desktop application were the same, the patterns used would have to be redesigned. This potentially would have added a learning curve for the users where they would have to re-learn how to perform certain tasks.</p>
+          <a class="project-slides" href="image/elliemae/doc_wireframe.png" data-gallery> <img src="image/elliemae/doc_wireframe.png" alt="Market Study" width="100%"> </a>
+          <p>In addition, the desktop solution itself had certain usability issues around inconsistent use of patterns, confusing terminology, and chaotic information layout, that would have to be fixed while translating those requirements over to the web/mobile channels.</p>
+          <ul>
+            <li>Starting with a low fidelity Balsamiq flow, I worked with different stakeholders to align on the approach for the product. Streamlined different document-related tasks.</li>
+            <li>Worked on some of the designs such as sending disclosures, requesting documents from borrowers, organizing files, uploading files and reviewing files.</li>
+            <li>Improved the process to organize the files. Redesigned it to make it easy for users to move around and arrange a large number of files.</li>
+            <li>Used progressive disclosure method to declutter the screens and show information when users need instead of showing information always.</li>
+            <li>Instead of having one view that does everything we designed different views based on tasks.</li>
+          </ul>
+
+          <h2>User Testing</h2>
+          <p>The mobile design was tested with 5 participants. The redesigned navigation pattern was loved by all the users. Even the users who had never used this platform to perform the task were able to easily navigate through the app using it.</p>
+          <p>The doc viewer, it was tested with 8 users. Most of the design worked well except for the fact that the user wanted edit button to be more prominent and that they wanted editing capability on the home screen. It was a technical challenge that would impact performance. We are currently working to figure out how to give those features/ subset of features on the main screen without impacting performance.</p>
+
+          <h2>Impact</h2>
+          <p>The product was launched in March 2019 during Ellie Mae experience conference.</p>
+
+          <a class="project-slides" href="image/elliemae/conference.jpg" data-gallery> <img src="image/elliemae/conference.jpg" alt="Market Study" width="100%"> </a>
+
+          <h2>Takeaway</h2>
+          <ul>
+            <li>UX team lead research session with all stakeholders listening in to the session. Because of this, most of the stakeholders aligned with users and UX team.</li>
+            <li>Due to strong collaboration with developers, we were able to ensure that we didn't break the user experience as the product evolved. We designed not only the MVP version but the whole growth trajectory for the product.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+	</div>
+
+     <!-- Footer
+      ================================================== -->
+
+	<footer class="bs-footer" role="contentinfo">
+		<div class="container">
+			<p class="pull-left col-xs-4">Developed by Mehul Agrawal</p>
+			<p class="pull-right col-xs-8">
+				<a href="mailto:agrawal.mehul92@gmail.com"><img src="image/assets/email.png"></a> &nbsp;
+				<a href="https://www.linkedin.com/in/mehulagr"><img src="image/assets/linkedin.png"></a>
+			</p>
+		</div>
+	</footer>
+
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="docs/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="docs/bootstrap.js"></script>
+	<script type="text/javascript" src="docs/jquery.blueimp-gallery.min.js"></script>
+
+  </body>
+</html>
