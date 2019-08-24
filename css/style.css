@@ -1,7 +1,7 @@
 body {
 	font-family: 'Avenir', 'Raleway', sans-serif;
 	font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75;
   color: #424242;
 	margin-top: 50px;
@@ -75,69 +75,39 @@ blockquote {
 
 /* Project Text */
 .project_content {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.75;
+
 }
 
 .project_content h1{
+	color: #3f51b5;
+	margin-top: 48px;
+	font-size: 48px;
+	text-align: center;
+}
 
+.project_content h1 small::before{
+  content: "\A";
+  white-space: pre;
+}
+
+.project_content h1 small{
+	color: #3f51b5;
+	font-size: 24px;
 }
 
 .project_content h2{
-	margin-top: 100px;
-	margin-bottom: -20px;
-	color: #3f51b5;
+	margin-top: 96px;
+	font-weight: 600;
+	font-size: 24px;
+	/*margin-bottom: -20px;
+	color: #3f51b5;*/
 }
 
 .project_content h3{
-	margin-top: 75px;
-	margin-bottom: -20px;
+	margin-top: 48px;
+	margin-bottom: 0px;
 	font-weight: 600;
 	font-size: 21px
-}
-
-.project_content p{
-	margin-top: 30px;
-}
-
-.project_content ul{
-	margin-top: 30px;
-}
-
-.project_content .highlight-section{
-	background-color: #f5f5f5;
-	margin-top: 50px;
-	padding-bottom: 75px;
-}
-
-.project_content .highlight-section h2{
-	margin-top: 75px;
-	margin-bottom: -75px;
-}
-
-.wireframe-description-section{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 75px -15px;
-}
-
-.wireframe-description-section div{
-	flex-grow: 1;
-	align-self: center;
-	flex-basis: 0;
-	min-width: 400px;
-	margin: auto 15px;
-}
-
-.wireframe-description-section h3{
-	margin-top: 30px;
-}
-
-.project_content .img-border{
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	margin-top: 30px;
 }
 
 .project_content h4{
@@ -146,15 +116,23 @@ blockquote {
 	font-size: 20px;
 }
 
-.project_content b{
-	color: #212121;
+.project_content p{
+	margin-top: 8px;
 }
 
-.project_content .intro_para {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: normal;
-	color: #333333;
+.project_content ul{
+	margin-top: 8px;
+}
+
+.highlight-section{
+	background-color: #f5f5f5;
+	margin-top: 50px;
+	padding-bottom: 75px;
+}
+
+.highlight-section h2{
+	margin-top: 75px;
+	margin-bottom: -75px;
 }
 
 .videoWrapper {
@@ -163,6 +141,7 @@ blockquote {
 	padding-top: 25px;
 	height: 0;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -173,8 +152,11 @@ blockquote {
 
 .emphasis {
 	font-weight: bold;
-	/* color: #3f51b5; */
-	/* font-size: 120%; */
+}
+
+.project_content .img-border{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-top: 30px;
 }
 
 .image-quote{
@@ -220,52 +202,12 @@ blockquote {
 	color: white
 }
 
-
-/* Project Thumbnails home page */
-#portfoliolist .portfolio .thumbnail {
-	border: None;
-	box-shadow: None;
-	background-color: #FFFFFF;
-	text-align: center;
-	/* box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2); */
-	font-weight: 500;
-	font-size: 16px;
-	margin-bottom: 30px;
-}
-
-#portfoliolist .portfolio .thumbnail h4{
-	line-height: 1.25;
-	color: #37474F; /* #0072BB; */
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-}
-
-#portfoliolist .portfolio .thumbnail:hover {
-	-moz-box-shadow: 5px 5px 5px #c5c5c5;
-	-webkit-box-shadow: 5px 5px 5px #c5c5c5;
-	box-shadow: 5px 5px 5px #c5c5c5;
-}
-
 .badge {
 	border-radius: 0px;
 	font-weight: normal;
 	color: #808080;
 	background-color: #F5F5F5;
 }
-
-#portfoliolist .portfolio .thumbnail a div{
-	margin: 5%;
-}
-
-#portfoliolist .portfolio .thumbnail a{
-	text-decoration: none;
-}
-
-#portfoliolist .portfolio .thumbnail:hover{
-	background-color: #fcfcfc;
-}
-
 
 /*
  * Side navigation
@@ -324,9 +266,7 @@ blockquote {
   font-size: 90%;
 }
 
-.bs-footer .container{
-	background-color: #f5f5f5;
-}
+
 
 /* Show and affix the side nav when space allows it */
 @media (min-width: 992px) {
@@ -372,7 +312,6 @@ blockquote {
  *
  * Separated section of content at the bottom of all pages, save the homepage.
  */
-
 .bs-footer {
   padding-top: 0px;
   margin-top: 2%;
@@ -381,6 +320,7 @@ blockquote {
 }
 
 .bs-footer .container {
+	background-color: #f5f5f5;
 	padding: 15px 0px;
 	margin: 0px;
 	width: 100%;

@@ -1,0 +1,64 @@
+/* Depriciated */
+/* Project Thumbnails home page */
+#portfoliolist .portfolio .thumbnail {
+	border: None;
+	box-shadow: None;
+	background-color: #FFFFFF;
+	text-align: center;
+	/* box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2); */
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+#portfoliolist .portfolio .thumbnail h4{
+	line-height: 1.25;
+	color: #37474F; /* #0072BB; */
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+
+#portfoliolist .portfolio .thumbnail:hover {
+	-moz-box-shadow: 5px 5px 5px #c5c5c5;
+	-webkit-box-shadow: 5px 5px 5px #c5c5c5;
+	box-shadow: 5px 5px 5px #c5c5c5;
+}
+
+#portfoliolist .portfolio .thumbnail a div{
+	margin: 5%;
+}
+
+#portfoliolist .portfolio .thumbnail a{
+	text-decoration: none;
+}
+
+#portfoliolist .portfolio .thumbnail:hover{
+	background-color: #fcfcfc;
+}
+
+.project_content .intro_para {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: normal;
+	color: #333333;
+}
+
+.wireframe-description-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 75px -15px;
+}
+
+.wireframe-description-section div{
+	flex-grow: 1;
+	align-self: center;
+	flex-basis: 0;
+	min-width: 400px;
+	margin: auto 15px;
+}
+
+.wireframe-description-section h3{
+	margin-top: 30px;
+}
