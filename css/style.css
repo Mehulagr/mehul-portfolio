@@ -62,37 +62,39 @@ blockquote {
 }
 
 /* Project Title */
-.project-jumbotron{
-	margin: 0px;
-	min-height: 300px
-}
-
 .project-title {
 	background-color:#eeeeee;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-/* Project Text */
-.project_content {
-
+.project-jumbotron{
+	margin: 0px;
+	min-height: 300px
 }
 
-.project_content h1{
-	color: #3f51b5;
-	margin-top: 48px;
-	font-size: 48px;
+.jumbotron {
+	background-color: #3F51B51a;
+	margin: 0px;
+	margin-top: 50px;
 	text-align: center;
 }
 
-.project_content h1 small::before{
-  content: "\A";
-  white-space: pre;
+.jumbotron h1{
+	color: #3f51b5;
+	margin-top: 48px;
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.1;
+	margin:25px 0px;
 }
 
-.project_content h1 small{
+/* Project Text */
+.jumbotron h1 small{
 	color: #3f51b5;
 	font-size: 24px;
+	line-height: 1;
+	color: #4E4E4E;
 }
 
 .project_content h2{
