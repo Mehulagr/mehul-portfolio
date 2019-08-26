@@ -14,6 +14,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 /* Top Nav Bar */
+.navbar-default .navbar-nav>li>a {
+	color: #424242;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #3f51b5;
+}
+
 .navbar-default {
     background-color: #FFFFFF;
     border: none;
@@ -21,6 +29,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .navbar-default .navbar-brand {
     color: #3f51b5;
+		font-weight: 600;
 }
 
 .navbar-right {
@@ -189,10 +198,15 @@ blockquote {
 	background-size: cover;
 	text-align: center;
 	display: table;
+	transition: box-shadow 0.3s ease-in-out;
 }
 
 .newportfoliolist span{
 	display: none;
+}
+
+.newportfoliolist:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .newportfoliolist:hover span {
@@ -200,8 +214,8 @@ blockquote {
 		vertical-align: middle;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.65);
-		background-blend-mode: normal;
+		/*background-color: rgba(0, 0, 0, 0.65);
+		background-blend-mode: normal;*/
 		color: white;
 }
 
