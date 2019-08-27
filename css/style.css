@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: #3f51b5;
+	color: #0163BE;
 	font-weight: 500;
 }
 
@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .navbar-default .navbar-brand {
-    color: #3f51b5;
-		font-weight: 600;
+    color: #0163BE;
+		font-weight: 500;
 }
 
 .navbar-right {
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .nav-projects{
-	background-color: #3f51b5;
+	background-color: #0163BE;
 }
 
 .nav-projects a{
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 blockquote {
-	border-left:5px solid #3f51b5;
+	border-left:5px solid #0163BE;
 	background-color: #f5f5f5;
 }
 
@@ -84,14 +84,14 @@ blockquote {
 }
 
 .jumbotron {
-	background-color: #3F51B51a;
+	background-color: #0163BE1a;
 	margin: 0px;
 	margin-top: 50px;
 	text-align: center;
 }
 
 .jumbotron h1{
-	color: #3f51b5;
+	color: #0163BE;
 	margin-top: 48px;
 	font-size: 36px;
 	text-align: center;
@@ -101,7 +101,7 @@ blockquote {
 
 /* Project Text */
 .jumbotron h1 small{
-	color: #3f51b5;
+	color: #0163BE;
 	font-size: 24px;
 	line-height: 1;
 	color: #4E4E4E;
@@ -112,7 +112,7 @@ blockquote {
 	font-weight: 600;
 	font-size: 28px;
 	/*margin-bottom: -20px;
-	color: #3f51b5;*/
+	color: #0163BE;*/
 }
 
 .project_content h3{
@@ -124,8 +124,10 @@ blockquote {
 
 .project_content h4{
 	font-weight: 300;
-	color: #3f51b5;
+	color: #0163BE;
 	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
 }
 
 .project_content p{
@@ -183,7 +185,7 @@ blockquote {
 }
 
 .image-quote small{
-	color: #3f51b5;
+	color: #0163BE;
 }
 
 .image-shadow{
@@ -335,26 +337,15 @@ blockquote {
  * Separated section of content at the bottom of all pages, save the homepage.
  */
 .bs-footer {
-  padding-top: 0px;
-  margin-top: 2%;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
 .bs-footer .container {
 	background-color: #f5f5f5;
-	padding: 15px 0px;
-	margin: 0px;
 	width: 100%;
-}
-
-.bs-footer .container .pull-left{
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-
-.bs-footer .container .pull-right{
-	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px
 }
 
 .bs-footer .container .pull-right a img{
