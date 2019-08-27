@@ -13,6 +13,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	color: #3a3a3a;
 }
 
+.project_content{
+	margin-bottom: 50px;
+}
+
+.project-slides center{
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #424242;
+}
+
+.link{
+	text-decoration: underline;
+}
+
 /* Top Nav Bar */
 .navbar-default .navbar-nav>li>a {
 	color: #424242;
@@ -140,7 +155,7 @@ blockquote {
 
 .project_content img{
 	margin-top: 24px;
-	margin-bottom: 24px;
+	margin-bottom: 0px;
 }
 
 .highlight-section{
@@ -152,6 +167,11 @@ blockquote {
 .highlight-section h2{
 	margin-top: 75px;
 	margin-bottom: -75px;
+}
+
+.highlight-project{
+	margin-top: 50px;
+	padding-bottom: 50px;
 }
 
 .videoWrapper {
