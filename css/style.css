@@ -458,8 +458,8 @@ blockquote {
 	flex-grow: 1;
 	align-self: flex-start;
 	flex-basis: 0;
-	min-width: 400px;
-	margin: auto 15px;
+	/* min-width: 400px; */
+	margin: 15px;
 }
 
 /* Special */
