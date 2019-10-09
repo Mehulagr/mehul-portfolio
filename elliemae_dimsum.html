@@ -117,22 +117,28 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-8 col-md-offset-2">
           <h2>Background</h2>
-          <p>As Ellie Mae rapidly evolved its web platform, it needed a way to maintain its consistency (in design and code) and avoid as many one-offs (custom components) as possible. Additionally, most of the used components were not accessible. This led to the development of "Dimsum", the design system of Ellie Mae.</p>
+          <p>As Ellie Mae rapidly evolved its web platform, it needed a way to maintain its consistency (in design and code) and avoid as many one-offs (custom components) as possible. Additionally, most of the used components were not accessible. This led to the development of "Dimsum," the design system of Ellie Mae.</p>
 
           <h2>My role and components worked on</h2>
-          <p>I am a part of the dim sum team where I design and add to the component library. The design system team at Ellie Mae is an agile and design-driven team. We have one-on-one with developers on a daily basis. Most of the enhancement requirements are prioritized together by design and dev teams.</p>
+          <p>I am a part of the dim sum team where I design and add to the component library. The design system team at Ellie Mae is agile and design-driven. We have one-on-one with developers daily. Most of the enhancement requirements are prioritized together by design and dev teams.</p>
           <p>Dimsum design system gave me an opportunity to work on detailed interaction design and visual design. These are some of the components that I worked on.</p>
 
-          <h2>Doc viewer and editor</h2>
-          <p>Document viewer was a bigger undertaking where I designed interaction for viewing and editing a document. Additionally, worked on the accessibility of the component too. You read more details about this component in the doc management project.</p>
+          <h2>Document viewer and editor</h2>
+          <p>For doc viewer, most of the existing users were downloading documents to view it due to slow loading speed. Also, they were using the adobe software to edit the downloaded file even though the same editing features were available in the Ellie Mae viewer. The viewer was not responsive, so users faced issues comparing two documents if they open them in a split view. Due to these issues, the adoption of the old viewer was as low as 20%.</p>
+          <ul>
+          <li>Designed interactions for the viewer such as annotation, editing mode- reorder pages, split file, merge files, deleting pages.</li>
+          <li>Worked to make the overall viewer much easy to use. Solved the challenge to make edit features more prominent.</li>
+          <li>Made the viewer responsive that works on multiple platforms- as a windows app, web, tablet, and mobile.</li>
+          <li>I worked with developers to implement keyboard interactions for the viewer. The new doc viewer is WCAG AA 2.0 compliant.</li>
+        </ul>
           <a class="project-slides" href="image/elliemae/docviewer.png" data-gallery> <img class="img-border" src="image/elliemae/docviewer.png" alt="Document Viewer" width="100%"> </a>
 
           <h2>Data grid</h2>
-          <p>A data grid is the lifeline of enterprise software. Thus it had some interesting challenges such as our customers are used to really condensed views of data grid (which is not really accessible). When I was designing for web, I reference accessibility guidelines to balance the font sizes, color and spacing in the data grid for better readability and accessibility along with the compact view. Worked on other interactions for the data grid such as truncation, toolbar, expanding row, and filter.</p>
+          <p>A data grid is the lifeline of enterprise software. Thus it had some interesting challenges such as our customers are used to condensed views of data grid (which is not accessible). When I was designing for the web, I reference accessibility guidelines to balance the font sizes, color, and spacing in the data grid for better readability and accessibility along with the compact view. Worked on other interactions for the data grid such as truncation, toolbar, expanding row, and filter.</p>
           <a class="project-slides img-border" href="image/elliemae/data-grid.png" data-gallery> <img class="img-border" src="image/elliemae/data-grid.png" alt="Data Grid" width="100%"> </a>
 
           <h2>Query builder</h2>
-          <p>This is a component that is used by admins to design advanced search queries. I designed various interactions for the component such as drag and drop, toolbar, adding custom fields to query, etc. I also spec'd out visual requirements for different states of the component.</p>
+          <p>Query Builder is a component that is used by admins to design advanced search queries. I designed various interactions for the component such as drag and drop, toolbar, adding custom fields to query, etc. I also created specs for visualizing different states and animations for the component.</p>
           <a class="project-slides" href="image/elliemae/query-builder.png" data-gallery> <img src="image/elliemae/query-builder.png" alt="Query Builder" width="100%"> </a>
 
           <h2>Date and time picker</h2>
@@ -140,27 +146,27 @@
           <a class="project-slides" href="image/elliemae/date-time.gif" data-gallery> <img class="img-border" src="image/elliemae/date-time.gif" alt="Different date and time picker components" width="100%"> </a>
 
           <h2>Pills</h2>
-          <p>For this component, I collaborated with product teams to identify different use cases for the pill since pills were being used for different purposes based on contexts. I gathered all the requirements and designed various states for the pills based on the context.</p>
+          <p>For this component, I collaborated with product teams to identify different use cases for the pill since they are being used for different purposes based on contexts. I gathered all the requirements and designed various states for the pills based on the context.</p>
           <a class="project-slides" href="image/elliemae/pills.png" data-gallery> <img src="image/elliemae/pills.png" class="img-border" alt="Use Cases for Pills" width="100%"> </a>
 
           <h2>Key considerations for the components</h2>
           <p>While these are some of these components that were designed, each of these components accompanied the following specs/guidelines.</p>
 
           <h3>Interaction Spec</h3>
-          <p>I have worked on designing interaction specs for a number of components. This is a subset of interaction spec that I worked on for the query builder for drag and drop interaction.</p>
+          <p>I have worked on designing interaction specs for several components. This is a subset of interaction spec that I worked on for the query builder for drag and drop interaction.</p>
           <a class="project-slides" href="image/elliemae/query-builder-interaction.gif" data-gallery> <img class="img-border" src="image/elliemae/query-builder-interaction.gif" alt="Drag interaction for query builder" width="100%"> </a>
 
           <h3>UI Spec</h3>
-          <p>Each of the components that I designed accompanied detailed UI specs along with the interaction flows, These specs were handed off to the developers as requirements to add the components to the design system. This is one example of UI specs for the data grid toolbar.</p>
+          <p>Each of the components that I designed accompanied detailed UI specs along with the interaction flows. These specs were handed off to the developers as requirements to add the components to the design system. This is one example of UI specs for the data grid toolbar.</p>
           <a class="project-slides" href="image/elliemae/ui-spec.png" data-gallery> <img class="img-border" src="image/elliemae/ui-spec.png" alt="Color contrast and tab order for date picker" width="100%"> </a>
 
           <h3>Accessibility Efforts</h3>
-          <p>Even though basic accessibility spec such as colors and typography were already established in the design system, I spent time cross-checking them for the specific use case of the component. One such example is checking data grid in high contrast modes to ensure readability. Additionally, I used WCAG guidelines to make the components were keyboard accessible.</p>
+          <p>Even though basic accessibility spec such as colors and typography were already established in the design system, I spent time cross-checking them for the specific use case of the component. One such example is checking the data grid in high contrast modes to ensure readability. Additionally, I used WCAG guidelines to make the components were keyboard accessible.</p>
           <a class="project-slides" href="image/elliemae/accessibility.png" data-gallery> <img class="img-border" src="image/elliemae/accessibility.png" alt="Color contrast and tab order for date picker" width="100%"> </a>
 
           <h3>Testing</h3>
-          <p><b>Heuristics:</b> Some of the major components such as data grid, doc viewer and query builder went through formal user testing. It is difficult to do user testing for all these components individually. So, I worked with UX research team for heuristic evaluation where we tested the developed components for issues.</p>
-          <p><b>Implementation Feedback:</b> We try to identify as many issues beforehand as we can, but we still discover more issues when the dev teams implement the component in their product. At that point, we work with them to understand the source of the problem and enhance the spec to resolve it. That was one of the major reason behind the re-evaluation of the data grid font, color, and spacing.</p>
+          <p><b>Heuristics:</b> Some of the main components, such as data grid, doc viewer, and query builder, went through formal user testing. It is challenging to do user testing for all these components individually. So, I worked with the UX research team for heuristic evaluation, where we tested the developed components for issues.</p>
+          <p><b>Implementation Feedback:</b> We try to identify as many issues beforehand as we can, but we still discover more issues when the dev teams implement the component in their product. At that point, we work with them to understand the source of the problem and enhance the spec to resolve it. That was one of the primary reason behind the re-evaluation of the data grid font, color, and spacing.</p>
 
           <h2>My impact on the process</h2>
           <p><b>Sketch symbol and data library:</b> Helped all the designers to speed up their wireframing process by developing a sketch symbol library. Designers have migrated from Balsamiq to sketch because of the sketch symbol library. Working with BAs to build realistic data as part of the library.
